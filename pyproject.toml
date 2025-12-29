@@ -8,4 +8,5 @@ dependencies = [
     "channels>=4.3.2",
     "daphne>=4.2.1",
     "django>=6.0",
+    "uvicorn[standard]>=0.40.0",
 ]
