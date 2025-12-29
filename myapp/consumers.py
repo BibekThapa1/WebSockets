@@ -31,6 +31,6 @@ class MyConsumer(WebsocketConsumer):
         print("Event")
         self.send(
             text_data=json.dumps({
-                'added':event
+                'added':event['value']
             })
         )
